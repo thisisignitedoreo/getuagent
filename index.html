@@ -9,8 +9,7 @@
 		<script>
 			
 			document.getElementById("uagent").innerHTML = window.navigator.userAgent;
-			document.querySelector('meta[name="og:title"]').setAttribute("content", window.navigator.userAgent);
-			document.querySelector('meta[name="title"]').setAttribute("content", window.navigator.userAgent);
+			document.title = window.navigator.userAgent;
 
 		</script>
 	</body>
